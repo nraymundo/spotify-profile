@@ -1,7 +1,7 @@
 {
   "name": "spotify-profile",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,8 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@fontsource-variable/bodoni-moda": "^5.0.9",
+    "@fontsource-variable/montserrat": "^5.0.17",
+    "@fontsource-variable/texturina": "^5.0.19",
+    "buffer": "^6.0.3",
+    "querystring": "^0.2.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.37",
